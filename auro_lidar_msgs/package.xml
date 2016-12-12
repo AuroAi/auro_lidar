@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>auro_lidar_msgs</name>
+  <version>0.1.0</version>
+  <description>
+    quanergy_lidar_msgs
+  </description>
+  <author email="jit@auro.ai">Jit Ray Chowdhury</author>
+  <maintainer email="jit@auro.ai">Jit Ray Chowdhury</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://www.auro.ai</url>
+  <url type="repository">https://github.com/AuroAi/auro_lidar.git</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>genmsg</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+</package>

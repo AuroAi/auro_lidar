@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>auro_lidar_tools</name>
+  <version>0.1.0</version>
+  <description>
+    auro_lidar_tools to convert auro_lidar_msgs to point cloud
+  </description>
+  <author email="jit@auro.ai">Jit Ray Chowdhury</author>
+  <maintainer email="jit@auro.ai">Jit Ray Chowdhury</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://www.auro.ai</url>
+  <url type="repository">https://github.com/AuroAi/auro_lidar.git</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>auro_lidar_msgs</depend>
+  <depend>pcl_ros</depend>
+</package>
